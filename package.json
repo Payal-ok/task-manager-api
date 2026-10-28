@@ -1,0 +1,27 @@
+{
+  "name": "task-manager-api",
+  "version": "1.0.0",
+  "description": "REST API for managing personal tasks, built with Node.js, Express, SQLite and JWT authentication",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "keywords": [
+    "rest-api",
+    "express",
+    "sqlite",
+    "jwt",
+    "nodejs"
+  ],
+  "author": "Payal Pal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
